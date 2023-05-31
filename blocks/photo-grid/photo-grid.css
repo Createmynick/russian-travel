@@ -4,6 +4,26 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, min-content);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
   gap: 16px;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, min-content);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, min-content);
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, min-content);
+    padding: 64px 16px 0;
+  }
 }
