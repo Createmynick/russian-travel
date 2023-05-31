@@ -1,0 +1,9 @@
+.place {
+  margin: 0 0 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, min-content);
+}
+.place:last-of-type {
+  margin-bottom: 0;
+}
