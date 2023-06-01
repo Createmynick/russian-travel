@@ -1,5 +1,5 @@
 .place__title {
-  margin: 0 0 48px;
+  margin: 0 0 0;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
-    margin: 0 0 32px;
+    margin: 0 0 0;
     font-size: 32px;
     line-height: 109%;
   }
